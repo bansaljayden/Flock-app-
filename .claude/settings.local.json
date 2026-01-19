@@ -5,7 +5,9 @@
       "Bash(timeout:*)",
       "Bash(npm run build:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nRemove unused variables for deployment\n\nRemoved unused state variables and constants that were causing\nVercel build failures due to ESLint treating warnings as errors:\n- achievements\n- interests, setInterests, newInterest, setNewInterest\n- newEventTime, setNewEventTime  \n- cards, setCards, cardNum, setCardNum, cardExp, setCardExp\n- cardCvc, setCardCvc, showAddCard, setShowAddCard\n- showConfetti, setShowConfetti\n- allInterestsList, timeOptions\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nRemove unused variables for deployment\n\nRemoved unused state variables and constants that were causing\nVercel build failures due to ESLint treating warnings as errors:\n- achievements\n- interests, setInterests, newInterest, setNewInterest\n- newEventTime, setNewEventTime  \n- cards, setCards, cardNum, setCardNum, cardExp, setCardExp\n- cardCvc, setCardCvc, showAddCard, setShowAddCard\n- showConfetti, setShowConfetti\n- allInterestsList, timeOptions\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
