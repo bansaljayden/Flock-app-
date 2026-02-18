@@ -7,7 +7,19 @@
       "Bash(git add:*)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nRemove unused variables for deployment\n\nRemoved unused state variables and constants that were causing\nVercel build failures due to ESLint treating warnings as errors:\n- achievements\n- interests, setInterests, newInterest, setNewInterest\n- newEventTime, setNewEventTime  \n- cards, setCards, cardNum, setCardNum, cardExp, setCardExp\n- cardCvc, setCardCvc, showAddCard, setShowAddCard\n- showConfetti, setShowConfetti\n- allInterestsList, timeOptions\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "Bash(git push:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(npx react-scripts build:*)",
+      "Bash(Get-Content C:UsersJaydenAppDataLocalTempclaudeC--Users-Jayden-flock-apptasksb2fa667.output -Tail 30)",
+      "Bash(gh run:*)",
+      "WebFetch(domain:flock-app-bansaljaydens-projects.vercel.app)",
+      "WebFetch(domain:flock-app.vercel.app)",
+      "WebFetch(domain:flock-app-git-main-bansaljaydens-projects.vercel.app)",
+      "WebFetch(domain:flock-app-bansaljayden.vercel.app)",
+      "WebFetch(domain:flock-app-w65m-gle27g4yh-jayden-bansals-projects.vercel.app)",
+      "Bash(npx kill-port:*)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)",
+      "Bash(tree:*)"
     ]
   }
 }
