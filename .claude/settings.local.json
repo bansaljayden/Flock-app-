@@ -19,7 +19,9 @@
       "Bash(npx kill-port:*)",
       "Bash(git pull:*)",
       "Bash(git stash:*)",
-      "Bash(tree:*)"
+      "Bash(tree:*)",
+      "Bash(CI=true npm run build:*)",
+      "Bash(npx eslint:*)"
     ]
   }
 }
