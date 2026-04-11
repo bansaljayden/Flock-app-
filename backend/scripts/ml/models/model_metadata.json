@@ -9415,13 +9415,13 @@
     "colsample_bytree": "0.9"
   },
   "training_metrics": {
-    "rmse": 15.134,
-    "mae": 7.3294,
-    "r2": 0.751,
-    "median_ae": 1.0602,
+    "rmse": 15.1393,
+    "mae": 7.3872,
+    "r2": 0.7509,
+    "median_ae": 1.2379,
     "within_5": 71.8,
     "within_10": 78.5,
-    "within_15": 82.3
+    "within_15": 82.4
   },
   "cv_method": "GroupKFold(n_splits=18) \u2014 leave-one-city-out",
   "training_cities": [
@@ -9447,7 +9447,7 @@
   "model_version": "2.1.0",
   "model_type": "xgboost",
   "onnx_input_name": "input",
-  "trained_at": "2026-04-08T00:22:12.788392+00:00",
+  "trained_at": "2026-04-11T21:28:45.250386+00:00",
   "feature_types": [
     "float",
     "float",
